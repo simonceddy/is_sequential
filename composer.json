@@ -1,0 +1,19 @@
+{
+    "name": "simoneddy/is_sequential",
+    "description": "helper function that attempts to determine if an array should be considered sequential",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Eddy",
+            "email": "simon@simoneddy.com.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "src/is_sequential.php"
+        ]
+    },
+    "require": {}
+}
