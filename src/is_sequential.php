@@ -16,11 +16,7 @@ if (!function_exists('is_sequential')) {
      */
     function is_sequential(array $array)
     {
-        if (isset($array[0])
-            && !preg_match('/\D/', implode('', array_keys($array)))
-        ) {
-            return true;
-        }
-        return false;
+        return isset($array[0])
+            && !preg_match('/\D/', implode('', array_keys($array)));
     }
 }
